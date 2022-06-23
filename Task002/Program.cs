@@ -7,4 +7,4 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число ");
 int numberC = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(Math.Max(Math.Max(numberA, numberB), numberC));
+Console.WriteLine($"Максимальное число {Math.Max(Math.Max(numberA, numberB), numberC)}");
